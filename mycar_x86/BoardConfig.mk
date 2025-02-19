@@ -1,4 +1,6 @@
-include device/google/cuttlefish/vsoc_x86_64_only/BoardConfig.mk
+include device/generic/car/emulator_car64_x86_64/BoardConfig.mk
+
+# include device/google/cuttlefish/vsoc_x86_64_only/BoardConfig.mk
 
 # Fix partition size error, set current + 1MB(1048576 = 0x100000):
 #
