@@ -19,3 +19,6 @@ SOONG_CONFIG_cvd_custom_action_config := mycar_action_config.json
 
 SOONG_CONFIG_cvd += custom_action_servers
 SOONG_CONFIG_cvd_custom_action_servers += cuttlefish_mycar_action_server
+
+# SOONG_CONFIG_cvd += custom_style
+# SOONG_CONFIG_cvd_custom_style := mycar_custom_style.css
